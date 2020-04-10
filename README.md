@@ -12,6 +12,12 @@ Solutions to problems from leetcode and other resources.
 
 ## Medium
 
+#### Problem: Simplify Path
+
+Given an absolute path for a file (Unix-style), simplify it. Or in other words, convert it to the canonical path
+
+### [Solution](Medium/simplifyPath.py)
+
 ---
 
 ## Hard
