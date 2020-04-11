@@ -4,6 +4,19 @@ Practice makes perfect
 
 Solutions to problems from leetcode and other resources.
 
+#### [Classical problems](#classical-problems)
+
+- _[Binary Trees](#binary-trees)_
+- _[Graphs](#graphs)_
+
+#### [Easy problems](#easy)
+
+#### [Medium problems](#medium)
+
+#### [Hard problems](#hard)
+
+#### [Very Hard problems](#verry-hard)
+
 ---
 
 ## Classical problems
