@@ -27,7 +27,7 @@ Solutions to problems from leetcode and other resources.
 
 > Given a binary tree, you need to compute the length of the diameter of the tree. The diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root.
 
-### [Solution](ClassicalProblems/Trees/diameterOfBinaryTree.py)
+#### [Solution](ClassicalProblems/Trees/diameterOfBinaryTree.py)
 
 ---
 
@@ -39,7 +39,7 @@ Solutions to problems from leetcode and other resources.
 > Given times, a list of travel times as directed edges times[i] = (u, v, w), where u is the source node, v is the target node, and w is the time it takes for a signal to travel from source to target.
 > Now, we send a signal from a certain node K. How long will it take for all nodes to receive the signal? If it is impossible, return -1.
 
-### [Solution](ClassicalProblems/Graphs/networkDelayTime.py)
+#### [Solution](ClassicalProblems/Graphs/networkDelayTime.py)
 
 ---
 
@@ -51,7 +51,20 @@ Solutions to problems from leetcode and other resources.
 
 > Return the minimum number of students that must move in order for all students to be standing in non-decreasing order of height.
 
-### [Solution](Easy/heighChecker.py)
+#### [Solution](Easy/heighChecker.py)
+
+#### _**Problem: Last Stone Weight **_
+
+> We have a collection of stones, each stone has a positive integer weight.
+
+> Each turn, we choose the two heaviest stones and smash them together. Suppose the stones have weights x and y with x <= y. The result of this smash is:
+
+> - If x == y, both stones are totaly destroyed.
+> - If x != y, the stone of weight x is totally destroyed, and the stone of weight y has new weight y - x
+
+> At the end, there is at most 1 stone left. Return the weight of this stone (0 if there are no stones left.)
+
+#### [Solution](Easy/lastStoneWeight.py)
 
 ---
 
