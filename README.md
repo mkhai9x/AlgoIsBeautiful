@@ -61,7 +61,16 @@ Solutions to problems from leetcode and other resources.
 
 > Given an absolute path for a file (Unix-style), simplify it. Or in other words, convert it to the canonical path
 
-### [Solution](Medium/simplifyPath.py)
+#### [Solution](Medium/simplifyPath.py)
+
+#### _**Problem: Climbing the Leaderboard**_
+
+> Alice is playing an arcade game and wants to climb to the top of the leaderboard and wants to track her ranking. The game uses Dense Ranking, so its leaderboard works like this:
+
+> - The player with the highest score is ranked number 1 on the leaderboard
+> - Players who have equal scores receive the same ranking number, and the next player(s) receive the immediately following ranking number.
+
+#### [Solution](Medium/climbingLeaderboard.py)
 
 ---
 
