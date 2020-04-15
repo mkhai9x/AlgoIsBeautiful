@@ -107,12 +107,38 @@ Solutions to problems from leetcode and other resources.
 
 > Given an array <code>nums</code> of _n_ integers where _n_ > 1, return an array <code>ouput</code> such that <code>output[i]</code> is equal to the product of all elements of <code>nums</code> except <code>nums[i]</code>.
 
-    Input: [1,2,3,4]
-    Output: [24,12,8,6]
+<pre>
+<strong>Input:</strong> [1,2,3,4]
+<strong>Output:</strong> [24,12,8,6]
+</pre>
 
 > Bonus: Can you do it in O(N) time and not using division?
 
 #### [Solution](Medium/productExceptSelf.py)
+
+#### _**Problem: K Closest Points to Origin**_
+
+> We have a list of <code>points</code> on the plane. Find the <code>K</code> closest points to the
+
+> origin <code>(0,0)</code>. (Here, the distance between two
+> points on a plane is the Euclidean distance.)
+
+> You may return the answer in any order. The answer is guaranteed
+> to be unique (except for the order that it is in.)
+
+> **Example 1:**
+
+<pre>
+<strong>Input:</strong> points = <span>[[1,3],[-2,2]], K = 1</span>
+<strong>Output:</strong> <span>[[-2,2]]</spane>
+<strong>Explanation:</strong>
+<span>The distance between (1, 3) and the origin is sqrt(10).
+The distance between (-2, 2) and the origin is sqrt(8).
+Since sqrt(8) < sqrt(10), (-2, 2) is closer to the origin.
+We only want the closest K = 1 points from the origin, so the answer is just [[-2,2]].</span>
+</pre>
+
+#### [Solution](Medium/kClosest.py)
 
 ---
 
