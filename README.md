@@ -53,7 +53,7 @@ Solutions to problems from leetcode and other resources.
 
 #### [Solution](Easy/heighChecker.py)
 
-#### _**Problem: Last Stone Weight **_
+#### _**Problem: Last Stone Weight**_
 
 > We have a collection of stones, each stone has a positive integer weight.
 
@@ -84,6 +84,16 @@ Solutions to problems from leetcode and other resources.
 > - Players who have equal scores receive the same ranking number, and the next player(s) receive the immediately following ranking number.
 
 #### [Solution](Medium/climbingLeaderboard.py)
+
+#### _**Problem: Find Peak Element**_
+
+> A peak element is an element that is greater than its neighbors.
+
+> Given an input array <code> nums </code>, where <code> nums[i] ≠ nums[i+1]</code> find a peak element and return its index.
+
+> Bonus: Can you do in <code>log(N)</code> time?
+
+#### [Solution](Medium/findPeakElement.py)
 
 ---
 
