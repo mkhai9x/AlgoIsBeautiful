@@ -103,6 +103,15 @@ Solutions to problems from leetcode and other resources.
 
 #### [Solution](Medium/numberOfWaysToMakeChange.py)
 
+#### _**Problem: Product of Array Except Self**_
+
+> Given an array <code>nums</code> of _n_ integers where _n_ > 1, return an array <code>ouput</code> such that <code>output[i]</code> is equal to the product of all elements of <code>nums</code> except <code>nums[i]</code>.
+
+    Input: [1,2,3,4]
+    Output: [24,12,8,6]
+
+#### [Solution](Medium/productExceptSelf.py)
+
 ---
 
 ## Hard
