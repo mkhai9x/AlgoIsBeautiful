@@ -95,6 +95,14 @@ Solutions to problems from leetcode and other resources.
 
 #### [Solution](Medium/findPeakElement.py)
 
+#### _**Problem: Number of Ways to make Change**_
+
+> Given an array of positive integers representing coin denominations and a single non-negative integer <code>n</code>
+> representing a target amount of money, write a function that returns the number of ways
+> to make change for that target amount using given coin denominations.
+
+#### [Solution](Medium/numberOfWaysToMakeChange.py)
+
 ---
 
 ## Hard
