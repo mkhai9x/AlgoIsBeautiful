@@ -110,6 +110,8 @@ Solutions to problems from leetcode and other resources.
     Input: [1,2,3,4]
     Output: [24,12,8,6]
 
+> Bonus: Can you do it in O(N) time and not using division?
+
 #### [Solution](Medium/productExceptSelf.py)
 
 ---
