@@ -140,6 +140,31 @@ We only want the closest K = 1 points from the origin, so the answer is just [[-
 
 #### [Solution](Medium/kClosest.py)
 
+#### _**Problem: Fruit Into Baskets**_
+
+> In a row of trees, the <code>i</code>-th tree produces fruit with type <code>tree[i]</code>.
+
+> You **start at any tree of your choice**, then repeatedly perform the following steps:
+
+> 1. Add one piece of fruit from this tree to your baskets. If you cannot, stop.
+> 2. Move to the next tree to the right of the current tree. If there is no tree to the right, stop.
+
+> Note that you do not have any choice after the initial choice of starting tree: you must perform step 1, then step 2, then back to step 1, then step 2, and so on until you stop.
+
+> You have two baskets, and each basket can carry any quantity of fruit, but you want each basket to only carry one type of fruit each.
+
+> What is the total amount of fruit you can collect with this procedure?
+
+> **Example:**
+
+<pre>
+<strong>Input:</strong> <span>[3,3,3,1,2,1,1,2,3,3,4]</span>
+<strong>Output:</strong> <span>5</span>
+<strong>Explanation: </strong>
+<span> We can collect [1,2,1,1,2].</span>
+<span> If we started at the first tree or the eighth tree, we would only collect 4 fruits.</span>
+</pre>
+
 ---
 
 ## Hard
