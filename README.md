@@ -165,6 +165,8 @@ We only want the closest K = 1 points from the origin, so the answer is just [[-
 <span> If we started at the first tree or the eighth tree, we would only collect 4 fruits.</span>
 </pre>
 
+#### [Solution](Medium/totalFruit.py)
+
 ---
 
 ## Hard
