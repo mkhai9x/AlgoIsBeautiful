@@ -45,6 +45,23 @@ Solutions to problems from leetcode and other resources.
 
 ## Easy
 
+#### _**Problem: Moving Average from Data Stream**_
+
+> Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window.
+
+> **Example :**
+
+<pre><span>
+m = MovingAverage(3)
+m.next(1) = 1
+m.next(10) = (1 + 10) / 2
+m.next(3) = (1 + 10 + 3) / 3
+m.next(5) = (10 + 3 + 5) / 3
+</span>
+</pre>
+
+#### [Solution](Easy/MovingAverage.py)
+
 #### _**Problem: Height Checker**_
 
 > Students are asked to stand in non-decreasing order of heights for an annual photo.
