@@ -23,7 +23,7 @@ Solutions to problems from leetcode and other resources.
 
 ### - **Binary Trees**
 
-#### _**Problem: Diameter of Binary Tree**_
+### _**Problem: Diameter of Binary Tree**_
 
 > Given a binary tree, you need to compute the length of the diameter of the tree. The diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root.
 
@@ -33,7 +33,7 @@ Solutions to problems from leetcode and other resources.
 
 ### - **Graphs**
 
-#### _**Problem: Network Delay Time**_
+### _**Problem: Network Delay Time**_
 
 > There are N network nodes, labelled 1 to N.
 > Given times, a list of travel times as directed edges times[i] = (u, v, w), where u is the source node, v is the target node, and w is the time it takes for a signal to travel from source to target.
@@ -45,7 +45,7 @@ Solutions to problems from leetcode and other resources.
 
 ## Easy
 
-#### _**Problem: Moving Average from Data Stream**_
+### _**Problem: Moving Average from Data Stream**_
 
 > Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window.
 
@@ -62,7 +62,7 @@ m.next(5) = (10 + 3 + 5) / 3
 
 #### [Solution](Easy/MovingAverage.py)
 
-#### _**Problem: Height Checker**_
+### _**Problem: Height Checker**_
 
 > Students are asked to stand in non-decreasing order of heights for an annual photo.
 
@@ -70,7 +70,7 @@ m.next(5) = (10 + 3 + 5) / 3
 
 #### [Solution](Easy/heighChecker.py)
 
-#### _**Problem: Last Stone Weight**_
+### _**Problem: Last Stone Weight**_
 
 > We have a collection of stones, each stone has a positive integer weight.
 
@@ -87,13 +87,13 @@ m.next(5) = (10 + 3 + 5) / 3
 
 ## Medium
 
-#### _**Problem: Simplify Path**_
+### _**Problem: Simplify Path**_
 
 > Given an absolute path for a file (Unix-style), simplify it. Or in other words, convert it to the canonical path
 
 #### [Solution](Medium/simplifyPath.py)
 
-#### _**Problem: Climbing the Leaderboard**_
+### _**Problem: Climbing the Leaderboard**_
 
 > Alice is playing an arcade game and wants to climb to the top of the leaderboard and wants to track her ranking. The game uses Dense Ranking, so its leaderboard works like this:
 
@@ -102,7 +102,7 @@ m.next(5) = (10 + 3 + 5) / 3
 
 #### [Solution](Medium/climbingLeaderboard.py)
 
-#### _**Problem: Find Peak Element**_
+### _**Problem: Find Peak Element**_
 
 > A peak element is an element that is greater than its neighbors.
 
@@ -112,7 +112,7 @@ m.next(5) = (10 + 3 + 5) / 3
 
 #### [Solution](Medium/findPeakElement.py)
 
-#### _**Problem: Number of Ways to make Change**_
+### _**Problem: Number of Ways to make Change**_
 
 > Given an array of positive integers representing coin denominations and a single non-negative integer <code>n</code>
 > representing a target amount of money, write a function that returns the number of ways
@@ -120,7 +120,7 @@ m.next(5) = (10 + 3 + 5) / 3
 
 #### [Solution](Medium/numberOfWaysToMakeChange.py)
 
-#### _**Problem: Product of Array Except Self**_
+### _**Problem: Product of Array Except Self**_
 
 > Given an array <code>nums</code> of _n_ integers where _n_ > 1, return an array <code>ouput</code> such that <code>output[i]</code> is equal to the product of all elements of <code>nums</code> except <code>nums[i]</code>.
 
@@ -133,7 +133,7 @@ m.next(5) = (10 + 3 + 5) / 3
 
 #### [Solution](Medium/productExceptSelf.py)
 
-#### _**Problem: K Closest Points to Origin**_
+### _**Problem: K Closest Points to Origin**_
 
 > We have a list of <code>points</code> on the plane. Find the <code>K</code> closest points to the
 
@@ -143,7 +143,7 @@ m.next(5) = (10 + 3 + 5) / 3
 > You may return the answer in any order. The answer is guaranteed
 > to be unique (except for the order that it is in.)
 
-> **Example 1:**
+> **Example:**
 
 <pre>
 <strong>Input:</strong> points = <span>[[1,3],[-2,2]], K = 1</span>
@@ -157,7 +157,7 @@ We only want the closest K = 1 points from the origin, so the answer is just [[-
 
 #### [Solution](Medium/kClosest.py)
 
-#### _**Problem: Fruit Into Baskets**_
+### _**Problem: Fruit Into Baskets**_
 
 > In a row of trees, the <code>i</code>-th tree produces fruit with type <code>tree[i]</code>.
 
@@ -184,11 +184,29 @@ We only want the closest K = 1 points from the origin, so the answer is just [[-
 
 #### [Solution](Medium/totalFruit.py)
 
+### _**Problem: Minimum Path Sum**_
+
+> Given a _m x n_ grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path.
+
+> **Note:** You can only move either down or right at any point in time.
+
+<pre>
+<strong>Input:</strong> <span>[
+  [1,3,1],
+  [1,5,1],
+  [4,2,1]
+]</span>
+<strong>Output:</strong> <span>7</span>
+<strong>Explanation:</strong><span> Because the path 1→3→1→1→1 minimizes the sum.</span>
+</pre>
+
+#### [Solution](Medium/minPathSum.py)
+
 ---
 
 ## Hard
 
-#### _**Problem: Largest Range**_
+### _**Problem: Largest Range**_
 
 > Write a function that takes in an array of integers and find the length of the longest consecutive elements sequence.
 
@@ -196,7 +214,7 @@ We only want the closest K = 1 points from the origin, so the answer is just [[-
 
 #### [Solution](Hard/largestRange.py)
 
-#### _**Problem: Min Rewards**_
+### _**Problem: Min Rewards**_
 
 > Write a function that takes in a list of scores and returns the minimum number of rewards that you must give out to students to satisfy the two rules:
 
@@ -205,7 +223,7 @@ We only want the closest K = 1 points from the origin, so the answer is just [[-
 
 #### [Solution](Hard/minRewards.py)
 
-#### _**Problem: Water Area**_
+### _**Problem: Water Area**_
 
 > You're given an array of non-negative integers where each non-zero integer represents the height of a pillar of width <code>1</code>.
 
