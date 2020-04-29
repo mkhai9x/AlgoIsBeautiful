@@ -205,6 +205,21 @@ We only want the closest K = 1 points from the origin, so the answer is just [[-
 
 #### [Solution](Hard/minRewards.py)
 
+#### _**Problem: Water Area**_
+
+> You're given an array of non-negative integers where each non-zero integer represents the height of a pillar of width <code>1</code>.
+
+> Imagine water being poured over all of the pillars
+
+> Write a function that returns the surface area of the water trapped between the pillars viewed from the front.
+
+<pre>
+<strong>Input:</strong> <span>[0, 8, 0, 0, 5, 0, 10, 0, 0, 1, 1, 0, 3]</span>
+<strong>Output:</strong> <span>48</span>
+</pre>
+
+#### [Solution](Hard/waterArea.py)
+
 ## Very Hard
 
 ---
