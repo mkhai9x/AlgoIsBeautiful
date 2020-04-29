@@ -214,7 +214,7 @@ We only want the closest K = 1 points from the origin, so the answer is just [[-
 > Write a function that returns the surface area of the water trapped between the pillars viewed from the front.
 
 <pre>
-<strong>Input:</strong> <span>[0, 8, 0, 0, 5, 0, 10, 0, 0, 1, 1, 0, 3]</span>
+<strong>Input:</strong> <span>[0, 8, 0, 0, 5, 0, 0, 10, 0, 0, 1, 1, 0, 3]</span>
 <strong>Output:</strong> <span>48</span>
 </pre>
 
