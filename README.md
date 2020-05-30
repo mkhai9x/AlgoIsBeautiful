@@ -279,6 +279,45 @@ We only want the closest K = 1 points from the origin, so the answer is just [[-
 
 > 1. <code>0</code> represents the <code>obstacle</code> can't be reached.
 
+> 2. <code>1</code> represents the <code>ground</code> can be walked through.
+
+> 3. <code>The place with number bigger than 1</code> represents a <code>tree</code> can be walked through, and this positive number represents the tree's height.
+
+> In one step you can walk in any of the four directions <code>top</code>, <code>bottom</code>, <code>left</code>, and <code>right</code> also when standing in a point which is a tree you can decide whether or not to cut off the tree.
+
+> You are asked to cut off **all** the trees in this forest in the order of tree's height - always cut off the tree with the lowest height first. And after cutting, the original place has the tree will become a grass (value 1).
+
+> You will start from the point <code>(0,0)</code> and you should ouput the minimum steps **you need to walk** to cut off all the trees. If you can't cut off all the trees, output <code>-1</code> in that situation.
+
+> You are guaranteed that now two <code>trees</code> have the same height and there is at least one tree needs to be cut off.
+
+> **Example 1:**
+
+<pre>
+<strong>Input:</strong>
+<span>[
+  [1,2,3],
+  [0,0,4],
+  [7,6,5],
+]</span>
+<strong>Output:</strong> <span>6</span>
+</pre>
+
+> **Example 2:**
+
+<pre>
+<strong>Input:</strong>
+<span>[
+  [1,2,3],
+  [0,0,0],
+  [7,6,5],
+]</span>
+<strong>Output:</strong> <span>-1</span>
+</pre>
+
+#### [Solution](Hard/CutOffTreesforGolfEvent/src/Solution.java)
+
+
 ## Very Hard
 
 ---
