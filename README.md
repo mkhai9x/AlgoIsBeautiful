@@ -221,6 +221,22 @@ We only want the closest K = 1 points from the origin, so the answer is just [[-
 
 #### [Solution](Medium/search.py)
 
+### _**Problem: Number Of Paths**_
+
+> Calculate the number of paths go from the top-left corner to the bottom-right corner.
+
+> You can not go cross the diagonal border. In other words, in every step the position <code>(i,j)</code>
+> needs to maintain <code>j>=i</code>. In every step, it may go one down, or one right.
+
+> Example: if you are at <code>(0,2)</code>, you may go to <code>(1,2)</code> or <code>(0,3)</code>.
+
+<pre>
+<strong>Input:</strong> <span>n = 4</span>
+<strong>Output:</strong> <span>5</span>
+</pre>
+
+#### [Solution](Medium/NumberOfPaths/src/NumberOfPaths.java)
+
 ---
 
 ## Hard
