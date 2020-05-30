@@ -273,6 +273,12 @@ We only want the closest K = 1 points from the origin, so the answer is just [[-
 
 #### [Solution](Hard/waterArea.py)
 
+### _**Cut Off Trees for Golf Event**_
+
+> You are asked to cut off trees in a forest for a golf event. The forest is represented as a non-negative 2D map, in this map:
+
+> 1. <code>0</code> represents the <code>obstacle</code> can't be reached.
+
 ## Very Hard
 
 ---
